@@ -12,5 +12,15 @@
    
 В работе учтены замечания эксперта 
 
-
+21.02  в репозиторий добавлены три файла
+cINSERT.sql - Задание 1
+cSELECT.sql - Задание 2
+cCREATE.sql - Задание 3
    
+в таблице треков, предварительно изменен тип атрибута duration 
+
+alter table songs 
+drop column duration
+
+alter table songs 
+add duration decimal(6,2)
