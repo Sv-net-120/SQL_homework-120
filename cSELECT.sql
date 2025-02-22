@@ -1,7 +1,8 @@
 -- название и продолжительность самого длинного трека
-select song_name, max(duration)
+select song_name, duration
 from Songs
-group by song_name
+where duration = (select max(duration) from songs)
+group by song_name, duration
 limit 1
 
 ---название треков, продолжительность которых не менее 3,5 минут

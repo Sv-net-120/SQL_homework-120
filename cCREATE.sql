@@ -14,7 +14,6 @@ group by a.albumid
 order by a.albumid
 
 --средняя продолжительность треков по каждому альбому
-
 select a.albumid, a.album_name, avg(s.duration)
 from albums a 
 join songs s on a.albumid = s.album_id
