@@ -36,3 +36,7 @@ add duration decimal(6,2)
 
 26/02 в репозиторий добавлен фаил function_home.py
 ЗАДАНИЕ к лекции Работа с PostgreSQL из Python
+
+03.03 добавлены файлы с кодами к теме Python БД ORM
+ home_models.py
+ create_select.py
